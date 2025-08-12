@@ -3,7 +3,7 @@
     "logLevel": 4,
     "privateKeyEnvName": "BORING_DEVELOPER",
     "chainName": "base",
-    "evmVersion": "shanghai",
+    "evmVersion": "london",
     "deployerContractAddressOrName": {
       "address": "0x0000000000000000000000000000000000000000",
       "name": "deployerAddress"
@@ -38,7 +38,7 @@
     }
   },
   "accountantConfiguration": {
-    "accountantDeploymentName": "Lombard BTC Accountant With Rate Providers V0.1",
+    "accountantDeploymentName": "Lombard BTC Accountant With Rate Providers V0.2",
     "accountantParameters": {
       "kind": {
         "variableRate": true,
@@ -57,14 +57,14 @@
           "name": "WBTC"
         },
         "minimumUpateDelayInSeconds": 21600,
-        "performanceFee": 1000,
+        "performanceFee": 0,
         "platformFee": 0,
         "startingExchangeRate": 101413064
       }
     }
   },
   "tellerConfiguration": {
-    "tellerDeploymentName": "Lombard BTC Teller With Multi Asset Support V0.1",
+    "tellerDeploymentName": "Lombard BTC Teller With Multi Asset Support V0.2",
     "tellerParameters": {
       "kind": {
         "teller": true,
@@ -86,8 +86,8 @@
     }
   },
   "boringQueueConfiguration": {
-    "boringQueueDeploymentName": "Lombard BTC Boring Queue V0.1",
-    "boringQueueSolverName": "Lombard BTC Boring Solver V0.1",
+    "boringQueueDeploymentName": "Lombard BTC Boring Queue V0.2",
+    "boringQueueSolverName": "Lombard BTC Boring Solver V0.2",
     "excessToSolverNonSelfSolve": false,
     "queueParameters": {
       "kind": {
