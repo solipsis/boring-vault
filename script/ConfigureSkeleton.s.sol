@@ -18,12 +18,12 @@ import "forge-std/Test.sol";
 contract ConfigureSkeleton is Script, ContractNames, Test {
     uint256 public privateKey;
 
-    Deployer deployer = Deployer(0x5F2F11ad8656439d5C14d9B351f8b09cDaC2A02d);
+    Deployer deployer = Deployer(0x47Cec90FACc9364D7C21A8ab5e2aD9F1f75D740C);
     RolesAuthority authority = RolesAuthority(0xe2C7E397b35fF40962eBc205217B6795520Fb264);
 
     function setUp() external {
         privateKey = vm.envUint("BORING_DEVELOPER");
-        vm.createSelectFork("sonicMainnet");
+        vm.createSelectFork("mainnet");
     }
 
     function run() external {
