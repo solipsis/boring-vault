@@ -2,7 +2,7 @@
   "deploymentParameters": {
     "logLevel": 4,
     "privateKeyEnvName": "BORING_DEVELOPER",
-    "chainName": "base",
+    "chainName": "bsc",
     "evmVersion": "london",
     "deployerContractAddressOrName": {
       "address": "0x0000000000000000000000000000000000000000",
@@ -10,13 +10,13 @@
     },
     "nativeWrapperAddressOrName": {
       "address": "0x0000000000000000000000000000000000000000",
-      "name": "WETH"
+      "name": "WBNB"
     },
     "deploymentOwnerAddressOrName": {
       "address": "0x0000000000000000000000000000000000000000",
       "name": "txBundlerAddress"
     },
-    "deploymentFileName": "skeletons/addresses/Base/LBTCv.json"
+    "deploymentFileName": "skeletons/addresses/BSC/LBTCv.json"
   },
   "rolesAuthorityConfiguration": {
     "rolesAuthorityDeploymentName": "Lombard BTC RolesAuthority Version 0.0"
