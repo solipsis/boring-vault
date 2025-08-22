@@ -21,13 +21,13 @@ import "forge-std/Test.sol";
 contract DeployGenericRateProvider is Script, ContractNames, Test {
     uint256 public privateKey;
     
-    address target = 0xE23eCA12D7D2ED3829499556F6dCE06642AFd990; 
+    address target = 0xb523AE262D20A936BC152e6023996e46FDC2A95D; 
     bytes4 selector = 0x50d25bcd; 
     Deployer deployer = Deployer(0x5F2F11ad8656439d5C14d9B351f8b09cDaC2A02d); 
 
     function setUp() external {
         privateKey = vm.envUint("BORING_DEVELOPER");
-        vm.createSelectFork("tac");
+        vm.createSelectFork("arbitrum");
     }
 
     function run() external {
@@ -45,7 +45,7 @@ contract DeployGenericRateProvider is Script, ContractNames, Test {
             0, 0,
             true
         );
-        address createdAddress = deployer.deployContract("wstETH Rate Provider V0.0", creationCode, constructorArgs, 0); 
+        address createdAddress = deployer.deployContract("wstETH Rate Provider V0.1", creationCode, constructorArgs, 0); 
         console.log("DEPLOYED ADDRESS: ", createdAddress); 
         //require(createdAddress == 0x983dC32F0F022F1e114Bf54c280B3575A512BF4f, "not premined"); 
         //require(GenericRateProvider(createdAddress).getRate() == 1038891179797110067, "bad price"); 
