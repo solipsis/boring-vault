@@ -2208,8 +2208,11 @@ contract MerkleTreeHelper is CommonBase, ChainValues, Test {
     }
 
     // ========================================= LIDO =========================================
-
     function _addLidoLeafs(ManageLeaf[] memory leafs) internal {
+        _addLidoLeafs(leafs, address(0); 
+    }
+
+    function _addLidoLeafs(ManageLeaf[] memory leafs, address referral) internal {
         // Approvals
         unchecked {
             leafIndex++;
@@ -2248,6 +2251,7 @@ contract MerkleTreeHelper is CommonBase, ChainValues, Test {
             getAddress(sourceChain, "rawDataDecoderAndSanitizer")
         );
         leafs[leafIndex].argumentAddresses[0] = address(0);
+
         // Unstaking
         unchecked {
             leafIndex++;
@@ -2306,7 +2310,21 @@ contract MerkleTreeHelper is CommonBase, ChainValues, Test {
             "Unwrap wstETH",
             getAddress(sourceChain, "rawDataDecoderAndSanitizer")
         );
+        //add extra leaf for depositing w/ vault address as referral
+        unchecked {
+            leafIndex++;
+        }
+        leafs[leafIndex] = ManageLeaf(
+            getAddress(sourceChain, "STETH"),
+            true,
+            "submit(address)",
+            new address[](1),
+            "Stake ETH for stETH",
+            getAddress(sourceChain, "rawDataDecoderAndSanitizer")
+        );
+        leafs[leafIndex].argumentAddresses[0] = getAddress(sourceChain, "boringVault");
     }
+
 
     // ========================================= Kinetiq KHYPE =========================================
     function _addKHypeLeafs(ManageLeaf[] memory leafs) internal {
