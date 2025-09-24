@@ -106,6 +106,7 @@ import {TacETHDecoderAndSanitizer} from "src/base/DecodersAndSanitizers/TacETHDe
 import {GoldenGooseUnichainDecoderAndSanitizer} from "src/base/DecodersAndSanitizers/GoldenGooseUnichainDecoderAndSanitizer.sol";
 import {OptimismGoldenGooseDecoderAndSanitizer} from "src/base/DecodersAndSanitizers/OptimismGoldenGooseDecoderAndSanitizer.sol";
 import {GoldenGooseBaseDecoderAndSanitizer} from "src/base/DecodersAndSanitizers/GoldenGooseBaseDecoderAndSanitizer.sol";
+import {DancingPenguinDecoderAndSanitizer} from "src/base/DecodersAndSanitizers/DancingPenguinDecoderAndSanitizer.sol";
 
 import "forge-std/Script.sol";
 import "forge-std/StdJson.sol";
@@ -137,12 +138,9 @@ contract DeployDecoderAndSanitizerScript is Script, ContractNames, MainnetAddres
         bytes memory constructorArgs;
         vm.startBroadcast(privateKey);
    
-        // creationCode = type(GoldenGooseBaseDecoderAndSanitizer).creationCode;
-        // constructorArgs = abi.encode(
-        //     getAddress(sourceChain, "aerodromeNonFungiblePositionManager"),
-        //     getAddress(sourceChain, "odosRouterV2") 
-        // ); 
-        // deployer.deployContract("Golden Goose Decoder And Sanitizer V0.6", creationCode, constructorArgs, 0);
+        creationCode = type(DancingPenguinDecoderAndSanitizer).creationCode;
+        constructorArgs = abi.encode(); 
+        deployer.deployContract("Dancing Penguin Decoder And Sanitizer V0.0", creationCode, constructorArgs, 0);
 
         vm.stopBroadcast();
     }

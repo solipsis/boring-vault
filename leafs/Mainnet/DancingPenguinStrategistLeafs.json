@@ -1,0 +1,1039 @@
+{
+  "metadata": {
+    "AccountantAddress": "0x754B6235345178c460690174Ea6935421b26aE18",
+    "BoringVaultAddress": "0xdfC83880203522d19D32dddC0B982ab5bfcF6411",
+    "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+    "DigestComposition": [
+      "Bytes20(DECODER_AND_SANITIZER_ADDRESS)",
+      "Bytes20(TARGET_ADDRESS)",
+      "Bytes1(CAN_SEND_VALUE)",
+      "Bytes4(TARGET_FUNCTION_SELECTOR)",
+      "Bytes{N*20}(ADDRESS_ARGUMENT_0,...,ADDRESS_ARGUMENT_N)"
+    ],
+    "LeafCount": 64,
+    "ManageRoot": "0x65adf95f4f2c1f2916681c47338fbb005235db12859afb4b73d2ebb08b2fc9d8",
+    "ManagerAddress": "0x503CEFFDd0ecB412f0Bd51f1A396567Fea562e87",
+    "TreeCapacity": 64
+  },
+  "leafs": [
+    {
+      "AddressArguments": ["0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2"],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Approve Aave V3 Pool to spend WETH",
+      "FunctionSelector": "0x095ea7b3",
+      "FunctionSignature": "approve(address,uint256)",
+      "LeafDigest": "0xbde571f643416dbf76206cba0d81ea48e7e513bc0daad5dedb6fdbd508f680ca",
+      "PackedArgumentAddresses": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+      "TargetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+    },
+    {
+      "AddressArguments": ["0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2"],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Approve Aave V3 Pool to spend weETH",
+      "FunctionSelector": "0x095ea7b3",
+      "FunctionSignature": "approve(address,uint256)",
+      "LeafDigest": "0x83899fa4770db02cda88fc3fb86c0f059a151fba3a5953ca09116194ac6753c4",
+      "PackedArgumentAddresses": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+      "TargetAddress": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee"
+    },
+    {
+      "AddressArguments": ["0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2"],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Approve Aave V3 Pool to spend wstETH",
+      "FunctionSelector": "0x095ea7b3",
+      "FunctionSignature": "approve(address,uint256)",
+      "LeafDigest": "0x89ff3159d1cb3c5b76b07cdbcb8251bb8b7099c7f70552dd3c21b1c565de6dee",
+      "PackedArgumentAddresses": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+      "TargetAddress": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0"
+    },
+    {
+      "AddressArguments": [
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Supply WETH to Aave V3",
+      "FunctionSelector": "0x617ba037",
+      "FunctionSignature": "supply(address,uint256,address,uint16)",
+      "LeafDigest": "0x2961b8cc35f68390400b2f3d2761af29b6ecfd2d82314859823cc5ee43087dda",
+      "PackedArgumentAddresses": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2"
+    },
+    {
+      "AddressArguments": [
+        "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Supply weETH to Aave V3",
+      "FunctionSelector": "0x617ba037",
+      "FunctionSignature": "supply(address,uint256,address,uint16)",
+      "LeafDigest": "0x11f61532eaa481d8f7111c152105d081685d1a11b0ddffd3ede9e53b6c5c7bc0",
+      "PackedArgumentAddresses": "0xcd5fe23c85820f7b72d0926fc9b05b43e359b7eedfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2"
+    },
+    {
+      "AddressArguments": [
+        "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Supply wstETH to Aave V3",
+      "FunctionSelector": "0x617ba037",
+      "FunctionSignature": "supply(address,uint256,address,uint16)",
+      "LeafDigest": "0x2e4c25ec0b98b2d56e723136532690156fcc66418d1f193e4a09a825f4a22fdf",
+      "PackedArgumentAddresses": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2"
+    },
+    {
+      "AddressArguments": [
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Withdraw WETH from Aave V3",
+      "FunctionSelector": "0x69328dec",
+      "FunctionSignature": "withdraw(address,uint256,address)",
+      "LeafDigest": "0xecf2b8a36326916977b82453c066fc30fb1917dc8168a33e51cb00e389566a10",
+      "PackedArgumentAddresses": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2"
+    },
+    {
+      "AddressArguments": [
+        "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Withdraw weETH from Aave V3",
+      "FunctionSelector": "0x69328dec",
+      "FunctionSignature": "withdraw(address,uint256,address)",
+      "LeafDigest": "0x5d3d3f80e6857c929762d69141bcc3bb4a9576117fa8e01ae0426118bc271857",
+      "PackedArgumentAddresses": "0xcd5fe23c85820f7b72d0926fc9b05b43e359b7eedfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2"
+    },
+    {
+      "AddressArguments": [
+        "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Withdraw wstETH from Aave V3",
+      "FunctionSelector": "0x69328dec",
+      "FunctionSignature": "withdraw(address,uint256,address)",
+      "LeafDigest": "0x7eaa456e15349b8e3da9f5ea9becd14c73fa750d96bf6d467745a86dd900407c",
+      "PackedArgumentAddresses": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2"
+    },
+    {
+      "AddressArguments": [
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Borrow WETH from Aave V3",
+      "FunctionSelector": "0xa415bcad",
+      "FunctionSignature": "borrow(address,uint256,uint256,uint16,address)",
+      "LeafDigest": "0xb9e055e87b21255f8f7e944f190ad38df21a6ada18b0d8cd442bc8f450fc7550",
+      "PackedArgumentAddresses": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2"
+    },
+    {
+      "AddressArguments": [
+        "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Borrow weETH from Aave V3",
+      "FunctionSelector": "0xa415bcad",
+      "FunctionSignature": "borrow(address,uint256,uint256,uint16,address)",
+      "LeafDigest": "0x2e73218db867bb0a57e34bdead976544d5023515f07fc7175a0a46f8c23eb727",
+      "PackedArgumentAddresses": "0xcd5fe23c85820f7b72d0926fc9b05b43e359b7eedfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2"
+    },
+    {
+      "AddressArguments": [
+        "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Borrow wstETH from Aave V3",
+      "FunctionSelector": "0xa415bcad",
+      "FunctionSignature": "borrow(address,uint256,uint256,uint16,address)",
+      "LeafDigest": "0x04cfb44e87ce43e3ab4922d59cacbca4e1b82e33b4879e50f52ec084929ec99f",
+      "PackedArgumentAddresses": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2"
+    },
+    {
+      "AddressArguments": [
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Repay WETH to Aave V3",
+      "FunctionSelector": "0x573ade81",
+      "FunctionSignature": "repay(address,uint256,uint256,address)",
+      "LeafDigest": "0x6a8c9ac550651a601459950012fe5de678ca4d6f65c8485646bccd0fd4f3345b",
+      "PackedArgumentAddresses": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2"
+    },
+    {
+      "AddressArguments": [
+        "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Repay weETH to Aave V3",
+      "FunctionSelector": "0x573ade81",
+      "FunctionSignature": "repay(address,uint256,uint256,address)",
+      "LeafDigest": "0x05fb6ec7ac1e56ac80e467a398f9c182d7e05c962c01794b7877943bdde1e7f3",
+      "PackedArgumentAddresses": "0xcd5fe23c85820f7b72d0926fc9b05b43e359b7eedfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2"
+    },
+    {
+      "AddressArguments": [
+        "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Repay wstETH to Aave V3",
+      "FunctionSelector": "0x573ade81",
+      "FunctionSignature": "repay(address,uint256,uint256,address)",
+      "LeafDigest": "0x66400b246d843ea44c00faec6774f60ef90b9793d13dc232be3c461fc80a055e",
+      "PackedArgumentAddresses": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2"
+    },
+    {
+      "AddressArguments": ["0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Toggle WETH as collateral in Aave V3",
+      "FunctionSelector": "0x5a3b74b9",
+      "FunctionSignature": "setUserUseReserveAsCollateral(address,bool)",
+      "LeafDigest": "0x3f9fd7e2d791ebf3d65f34120680d3c1fc30fb843cccf2fb9b3da10aa50034f5",
+      "PackedArgumentAddresses": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "TargetAddress": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2"
+    },
+    {
+      "AddressArguments": ["0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee"],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Toggle weETH as collateral in Aave V3",
+      "FunctionSelector": "0x5a3b74b9",
+      "FunctionSignature": "setUserUseReserveAsCollateral(address,bool)",
+      "LeafDigest": "0x037c6c1a52b277ef9b829553b896664085e776391ce59373bf9e04d939ab3ee9",
+      "PackedArgumentAddresses": "0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee",
+      "TargetAddress": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2"
+    },
+    {
+      "AddressArguments": ["0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0"],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Toggle wstETH as collateral in Aave V3",
+      "FunctionSelector": "0x5a3b74b9",
+      "FunctionSignature": "setUserUseReserveAsCollateral(address,bool)",
+      "LeafDigest": "0x6d18dd617a15ed4def154ae90f7f8f399ac739094cd8cf3e7c140984258b400d",
+      "PackedArgumentAddresses": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+      "TargetAddress": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2"
+    },
+    {
+      "AddressArguments": [],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Set user e-mode in Aave V3",
+      "FunctionSelector": "0x28530a47",
+      "FunctionSignature": "setUserEMode(uint8)",
+      "LeafDigest": "0x2548d8e77ca3b7703d289dee6af8579054cbe45389a674e6704c3a93a15cdf80",
+      "PackedArgumentAddresses": "0x",
+      "TargetAddress": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2"
+    },
+    {
+      "AddressArguments": ["0xdfC83880203522d19D32dddC0B982ab5bfcF6411"],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Claim rewards",
+      "FunctionSelector": "0x236300dc",
+      "FunctionSignature": "claimRewards(address[],uint256,address,address)",
+      "LeafDigest": "0x0f812ce09978c53178dc5e29f3a5a193e80d9789b074b1f85553b83c449b7d00",
+      "PackedArgumentAddresses": "0xdfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x8164Cc65827dcFe994AB23944CBC90e0aa80bFcb"
+    },
+    {
+      "AddressArguments": ["0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb"],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Approve MorhoBlue to spend WETH",
+      "FunctionSelector": "0x095ea7b3",
+      "FunctionSignature": "approve(address,uint256)",
+      "LeafDigest": "0x734002f3a85daf25b980f39658bac3c7e57abd5b94d20ea2ae221042d35b8e1f",
+      "PackedArgumentAddresses": "0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb",
+      "TargetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+    },
+    {
+      "AddressArguments": [
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "0x3fa58b74e9a8eA8768eb33c8453e9C2Ed089A40a",
+        "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Supply WETH to MorphoBlue weETH/WETH 86.0 LLTV market",
+      "FunctionSelector": "0xa99aad89",
+      "FunctionSignature": "supply((address,address,address,address,uint256),uint256,uint256,address,bytes)",
+      "LeafDigest": "0x646ba6891fe7652d03b54eab56fa36b7a5de2077cc799977f4f5afaff7dc3287",
+      "PackedArgumentAddresses": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2cd5fe23c85820f7b72d0926fc9b05b43e359b7ee3fa58b74e9a8ea8768eb33c8453e9c2ed089a40a870ac11d48b15db9a138cf899d20f13f79ba00bcdfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb"
+    },
+    {
+      "AddressArguments": [
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "0x3fa58b74e9a8eA8768eb33c8453e9C2Ed089A40a",
+        "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Withdraw WETH from MorphoBlue weETH/WETH 86.0 LLTV market",
+      "FunctionSelector": "0x5c2bea49",
+      "FunctionSignature": "withdraw((address,address,address,address,uint256),uint256,uint256,address,address)",
+      "LeafDigest": "0x0238958eb3aedfd6ec3ca912436e16140983c077b6dc2b15ccfd31977c9c9e34",
+      "PackedArgumentAddresses": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2cd5fe23c85820f7b72d0926fc9b05b43e359b7ee3fa58b74e9a8ea8768eb33c8453e9c2ed089a40a870ac11d48b15db9a138cf899d20f13f79ba00bcdfc83880203522d19d32dddc0b982ab5bfcf6411dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb"
+    },
+    {
+      "AddressArguments": ["0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb"],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Approve MorhoBlue to spend weETH",
+      "FunctionSelector": "0x095ea7b3",
+      "FunctionSignature": "approve(address,uint256)",
+      "LeafDigest": "0xbcba4310cf99d90ee1c2d521ae98bd4385939009e6b395735a190ce6a2bfe2a4",
+      "PackedArgumentAddresses": "0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb",
+      "TargetAddress": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee"
+    },
+    {
+      "AddressArguments": [
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "0x3fa58b74e9a8eA8768eb33c8453e9C2Ed089A40a",
+        "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Supply weETH to MorphoBlue weETH/WETH 86.0 LLTV market",
+      "FunctionSelector": "0x238d6579",
+      "FunctionSignature": "supplyCollateral((address,address,address,address,uint256),uint256,address,bytes)",
+      "LeafDigest": "0x1043ed6f95ae768bd70cb0f7b0a3631714bfae0ea02c6c7ef1a25dd0530af0d2",
+      "PackedArgumentAddresses": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2cd5fe23c85820f7b72d0926fc9b05b43e359b7ee3fa58b74e9a8ea8768eb33c8453e9c2ed089a40a870ac11d48b15db9a138cf899d20f13f79ba00bcdfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb"
+    },
+    {
+      "AddressArguments": [
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "0x3fa58b74e9a8eA8768eb33c8453e9C2Ed089A40a",
+        "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Borrow WETH from MorphoBlue weETH/WETH 86.0 LLTV market",
+      "FunctionSelector": "0x50d8cd4b",
+      "FunctionSignature": "borrow((address,address,address,address,uint256),uint256,uint256,address,address)",
+      "LeafDigest": "0x53c0d10fb630a60408c115087d85ebd8864a7d9be8a02bd560ec55ca2f5edc92",
+      "PackedArgumentAddresses": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2cd5fe23c85820f7b72d0926fc9b05b43e359b7ee3fa58b74e9a8ea8768eb33c8453e9c2ed089a40a870ac11d48b15db9a138cf899d20f13f79ba00bcdfc83880203522d19d32dddc0b982ab5bfcf6411dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb"
+    },
+    {
+      "AddressArguments": [
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "0x3fa58b74e9a8eA8768eb33c8453e9C2Ed089A40a",
+        "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Repay WETH to MorphoBlue weETH/WETH 86.0 LLTV market",
+      "FunctionSelector": "0x20b76e81",
+      "FunctionSignature": "repay((address,address,address,address,uint256),uint256,uint256,address,bytes)",
+      "LeafDigest": "0x9deb6d05c6031cfebc76504306ef9d460f6cd30f14ee568b0458de28bd83f08a",
+      "PackedArgumentAddresses": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2cd5fe23c85820f7b72d0926fc9b05b43e359b7ee3fa58b74e9a8ea8768eb33c8453e9c2ed089a40a870ac11d48b15db9a138cf899d20f13f79ba00bcdfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb"
+    },
+    {
+      "AddressArguments": [
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "0x3fa58b74e9a8eA8768eb33c8453e9C2Ed089A40a",
+        "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Withdraw weETH from MorphoBlue weETH/WETH 86.0 LLTV market",
+      "FunctionSelector": "0x8720316d",
+      "FunctionSignature": "withdrawCollateral((address,address,address,address,uint256),uint256,address,address)",
+      "LeafDigest": "0x19d3cd87ccae4634912b515b6447f19650553414ac0d8cded9e58068ef0011a3",
+      "PackedArgumentAddresses": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2cd5fe23c85820f7b72d0926fc9b05b43e359b7ee3fa58b74e9a8ea8768eb33c8453e9c2ed089a40a870ac11d48b15db9a138cf899d20f13f79ba00bcdfc83880203522d19d32dddc0b982ab5bfcf6411dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb"
+    },
+    {
+      "AddressArguments": [
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "0xbDd2F2D473E8D63d1BFb0185B5bDB8046ca48a72",
+        "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Supply WETH to MorphoBlue weETH/WETH 94.50 LLTV market",
+      "FunctionSelector": "0xa99aad89",
+      "FunctionSignature": "supply((address,address,address,address,uint256),uint256,uint256,address,bytes)",
+      "LeafDigest": "0xf4d1e6c7fe5809257d3a71d72e9a2c2c60e9bd28c463b8564b3cb819509cd5e4",
+      "PackedArgumentAddresses": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2cd5fe23c85820f7b72d0926fc9b05b43e359b7eebdd2f2d473e8d63d1bfb0185b5bdb8046ca48a72870ac11d48b15db9a138cf899d20f13f79ba00bcdfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb"
+    },
+    {
+      "AddressArguments": [
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "0xbDd2F2D473E8D63d1BFb0185B5bDB8046ca48a72",
+        "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Withdraw WETH from MorphoBlue weETH/WETH 94.50 LLTV market",
+      "FunctionSelector": "0x5c2bea49",
+      "FunctionSignature": "withdraw((address,address,address,address,uint256),uint256,uint256,address,address)",
+      "LeafDigest": "0x2df6fedeec9fe19d53fbb4b91fa3a8c96ed6a683dc780e59c504e6fc6f92eeac",
+      "PackedArgumentAddresses": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2cd5fe23c85820f7b72d0926fc9b05b43e359b7eebdd2f2d473e8d63d1bfb0185b5bdb8046ca48a72870ac11d48b15db9a138cf899d20f13f79ba00bcdfc83880203522d19d32dddc0b982ab5bfcf6411dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb"
+    },
+    {
+      "AddressArguments": [
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "0xbDd2F2D473E8D63d1BFb0185B5bDB8046ca48a72",
+        "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Supply weETH to MorphoBlue weETH/WETH 94.50 LLTV market",
+      "FunctionSelector": "0x238d6579",
+      "FunctionSignature": "supplyCollateral((address,address,address,address,uint256),uint256,address,bytes)",
+      "LeafDigest": "0x89405ad58bb4534630488c8e973aeed129b8a3b01c26be8bd35d74fccc9ca021",
+      "PackedArgumentAddresses": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2cd5fe23c85820f7b72d0926fc9b05b43e359b7eebdd2f2d473e8d63d1bfb0185b5bdb8046ca48a72870ac11d48b15db9a138cf899d20f13f79ba00bcdfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb"
+    },
+    {
+      "AddressArguments": [
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "0xbDd2F2D473E8D63d1BFb0185B5bDB8046ca48a72",
+        "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Borrow WETH from MorphoBlue weETH/WETH 94.50 LLTV market",
+      "FunctionSelector": "0x50d8cd4b",
+      "FunctionSignature": "borrow((address,address,address,address,uint256),uint256,uint256,address,address)",
+      "LeafDigest": "0x4cd131372d8312ce0533c605378a047b0cc9191277f750ff25c7b2bea6cacbeb",
+      "PackedArgumentAddresses": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2cd5fe23c85820f7b72d0926fc9b05b43e359b7eebdd2f2d473e8d63d1bfb0185b5bdb8046ca48a72870ac11d48b15db9a138cf899d20f13f79ba00bcdfc83880203522d19d32dddc0b982ab5bfcf6411dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb"
+    },
+    {
+      "AddressArguments": [
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "0xbDd2F2D473E8D63d1BFb0185B5bDB8046ca48a72",
+        "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Repay WETH to MorphoBlue weETH/WETH 94.50 LLTV market",
+      "FunctionSelector": "0x20b76e81",
+      "FunctionSignature": "repay((address,address,address,address,uint256),uint256,uint256,address,bytes)",
+      "LeafDigest": "0xcf5012f2f547786015c0c1446038b60cdd21792c9a12cbdd4892a94c5ee80e6f",
+      "PackedArgumentAddresses": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2cd5fe23c85820f7b72d0926fc9b05b43e359b7eebdd2f2d473e8d63d1bfb0185b5bdb8046ca48a72870ac11d48b15db9a138cf899d20f13f79ba00bcdfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb"
+    },
+    {
+      "AddressArguments": [
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "0xbDd2F2D473E8D63d1BFb0185B5bDB8046ca48a72",
+        "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Withdraw weETH from MorphoBlue weETH/WETH 94.50 LLTV market",
+      "FunctionSelector": "0x8720316d",
+      "FunctionSignature": "withdrawCollateral((address,address,address,address,uint256),uint256,address,address)",
+      "LeafDigest": "0x6fa5035dd5e74fed339f4301c93d509c98c6fd50d7c0bd4e352371c75943324c",
+      "PackedArgumentAddresses": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2cd5fe23c85820f7b72d0926fc9b05b43e359b7eebdd2f2d473e8d63d1bfb0185b5bdb8046ca48a72870ac11d48b15db9a138cf899d20f13f79ba00bcdfc83880203522d19d32dddc0b982ab5bfcf6411dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb"
+    },
+    {
+      "AddressArguments": ["0xdfC83880203522d19D32dddC0B982ab5bfcF6411"],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Claim morpho rewards",
+      "FunctionSelector": "0xfabed412",
+      "FunctionSignature": "claim(address,address,uint256,bytes32[])",
+      "LeafDigest": "0x8b8caa3c74e8bd220d02ed7690b263fc2d9c10703bd8e2e66ef7ed5f12dc3b5c",
+      "PackedArgumentAddresses": "0xdfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb"
+    },
+    {
+      "AddressArguments": ["0x2371e134e3455e0593363cBF89d3b6cf53740618"],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Approve gtWETH to spend WETH",
+      "FunctionSelector": "0x095ea7b3",
+      "FunctionSignature": "approve(address,uint256)",
+      "LeafDigest": "0xc90a9c988cc6120e71b9f5608cfb3fd26daeea4735e90c609934dcae444e4ec7",
+      "PackedArgumentAddresses": "0x2371e134e3455e0593363cbf89d3b6cf53740618",
+      "TargetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+    },
+    {
+      "AddressArguments": ["0xdfC83880203522d19D32dddC0B982ab5bfcF6411"],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Deposit WETH for gtWETH",
+      "FunctionSelector": "0x6e553f65",
+      "FunctionSignature": "deposit(uint256,address)",
+      "LeafDigest": "0xf0169ab1e81a5188bc6d60b6117711dd5bbc5c1de28996d034ecee59238ae447",
+      "PackedArgumentAddresses": "0xdfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x2371e134e3455e0593363cBF89d3b6cf53740618"
+    },
+    {
+      "AddressArguments": [
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Withdraw WETH from gtWETH",
+      "FunctionSelector": "0xb460af94",
+      "FunctionSignature": "withdraw(uint256,address,address)",
+      "LeafDigest": "0xed51ce028806bf36588fd9dc0eab0c3d8a1fa21aea09998bca101194518e166d",
+      "PackedArgumentAddresses": "0xdfc83880203522d19d32dddc0b982ab5bfcf6411dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x2371e134e3455e0593363cBF89d3b6cf53740618"
+    },
+    {
+      "AddressArguments": ["0xdfC83880203522d19D32dddC0B982ab5bfcF6411"],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Mint gtWETH using WETH",
+      "FunctionSelector": "0x94bf804d",
+      "FunctionSignature": "mint(uint256,address)",
+      "LeafDigest": "0x0f98cd4d879258ef30ec1b416b74aae2d2385de39869318f2f3c54c9489e35dc",
+      "PackedArgumentAddresses": "0xdfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x2371e134e3455e0593363cBF89d3b6cf53740618"
+    },
+    {
+      "AddressArguments": [
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Redeem gtWETH for WETH",
+      "FunctionSelector": "0xba087652",
+      "FunctionSignature": "redeem(uint256,address,address)",
+      "LeafDigest": "0x38d25864f85159b330f57aa69f1ecdeff7e4c1fec427c30dc53b9bafcfa04ae5",
+      "PackedArgumentAddresses": "0xdfc83880203522d19d32dddc0b982ab5bfcf6411dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x2371e134e3455e0593363cBF89d3b6cf53740618"
+    },
+    {
+      "AddressArguments": ["0x4881Ef0BF6d2365D3dd6499ccd7532bcdBCE0658"],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Approve gtLRTcore to spend WETH",
+      "FunctionSelector": "0x095ea7b3",
+      "FunctionSignature": "approve(address,uint256)",
+      "LeafDigest": "0x18a60fc76e78d69cbad88181d6e3e77144fafb4b1b6d5164cbac34cf731ef56e",
+      "PackedArgumentAddresses": "0x4881ef0bf6d2365d3dd6499ccd7532bcdbce0658",
+      "TargetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+    },
+    {
+      "AddressArguments": ["0xdfC83880203522d19D32dddC0B982ab5bfcF6411"],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Deposit WETH for gtLRTcore",
+      "FunctionSelector": "0x6e553f65",
+      "FunctionSignature": "deposit(uint256,address)",
+      "LeafDigest": "0x30409b8afb19d8098f4b8a3047966504aa316b137ee008bd5c6aee8231da38bd",
+      "PackedArgumentAddresses": "0xdfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x4881Ef0BF6d2365D3dd6499ccd7532bcdBCE0658"
+    },
+    {
+      "AddressArguments": [
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Withdraw WETH from gtLRTcore",
+      "FunctionSelector": "0xb460af94",
+      "FunctionSignature": "withdraw(uint256,address,address)",
+      "LeafDigest": "0xa4d10464570107adfa8d9dc50d6a9b43ef8474847f68e6e4bc0677f4f7fbf092",
+      "PackedArgumentAddresses": "0xdfc83880203522d19d32dddc0b982ab5bfcf6411dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x4881Ef0BF6d2365D3dd6499ccd7532bcdBCE0658"
+    },
+    {
+      "AddressArguments": ["0xdfC83880203522d19D32dddC0B982ab5bfcF6411"],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Mint gtLRTcore using WETH",
+      "FunctionSelector": "0x94bf804d",
+      "FunctionSignature": "mint(uint256,address)",
+      "LeafDigest": "0xc911ed5cd84f414f1af4bdf39ee3693ab1f2b369def40f377ac0de11334438b1",
+      "PackedArgumentAddresses": "0xdfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x4881Ef0BF6d2365D3dd6499ccd7532bcdBCE0658"
+    },
+    {
+      "AddressArguments": [
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Redeem gtLRTcore for WETH",
+      "FunctionSelector": "0xba087652",
+      "FunctionSignature": "redeem(uint256,address,address)",
+      "LeafDigest": "0x3c6506a4d0fc90a029f31ed6c48268e13703e45b02e1ff0f2492acf84d35e826",
+      "PackedArgumentAddresses": "0xdfc83880203522d19d32dddc0b982ab5bfcf6411dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x4881Ef0BF6d2365D3dd6499ccd7532bcdBCE0658"
+    },
+    {
+      "AddressArguments": ["0x9a8bC3B04b7f3D87cfC09ba407dCED575f2d61D8"],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Approve MCwETH to spend WETH",
+      "FunctionSelector": "0x095ea7b3",
+      "FunctionSignature": "approve(address,uint256)",
+      "LeafDigest": "0x2e2436f95ed85c3af10bde8e6f5c49d5ba9ae9f6d6701e75481b420e40ab600b",
+      "PackedArgumentAddresses": "0x9a8bc3b04b7f3d87cfc09ba407dced575f2d61d8",
+      "TargetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+    },
+    {
+      "AddressArguments": ["0xdfC83880203522d19D32dddC0B982ab5bfcF6411"],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Deposit WETH for MCwETH",
+      "FunctionSelector": "0x6e553f65",
+      "FunctionSignature": "deposit(uint256,address)",
+      "LeafDigest": "0x0a3d005c4d7d135a9b6c354ab5d7a6b4381abe0c19b2279f7c62363e9281d39c",
+      "PackedArgumentAddresses": "0xdfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x9a8bC3B04b7f3D87cfC09ba407dCED575f2d61D8"
+    },
+    {
+      "AddressArguments": [
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Withdraw WETH from MCwETH",
+      "FunctionSelector": "0xb460af94",
+      "FunctionSignature": "withdraw(uint256,address,address)",
+      "LeafDigest": "0xb54387fb328fe95128022336a2408c84211d56d7f1135011516bbb4a99660025",
+      "PackedArgumentAddresses": "0xdfc83880203522d19d32dddc0b982ab5bfcf6411dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x9a8bC3B04b7f3D87cfC09ba407dCED575f2d61D8"
+    },
+    {
+      "AddressArguments": ["0xdfC83880203522d19D32dddC0B982ab5bfcF6411"],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Mint MCwETH using WETH",
+      "FunctionSelector": "0x94bf804d",
+      "FunctionSignature": "mint(uint256,address)",
+      "LeafDigest": "0xe0fefcb777b593efa7e6b30d46a078d96ee8b13741e119aa9bf0dad90e920028",
+      "PackedArgumentAddresses": "0xdfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x9a8bC3B04b7f3D87cfC09ba407dCED575f2d61D8"
+    },
+    {
+      "AddressArguments": [
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Redeem MCwETH for WETH",
+      "FunctionSelector": "0xba087652",
+      "FunctionSignature": "redeem(uint256,address,address)",
+      "LeafDigest": "0xeb4127d96afc070e9d2f4f70853ff8d98ae9aa7779c5c7d7f4a522c8a0c97517",
+      "PackedArgumentAddresses": "0xdfc83880203522d19d32dddc0b982ab5bfcf6411dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x9a8bC3B04b7f3D87cfC09ba407dCED575f2d61D8"
+    },
+    {
+      "AddressArguments": ["0x78Fc2c2eD1A4cDb5402365934aE5648aDAd094d0"],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Approve Re7WETH to spend WETH",
+      "FunctionSelector": "0x095ea7b3",
+      "FunctionSignature": "approve(address,uint256)",
+      "LeafDigest": "0x34022e226aa150ca12d85718140c0338685fb25b9a4c39a38b8f977eb137023f",
+      "PackedArgumentAddresses": "0x78fc2c2ed1a4cdb5402365934ae5648adad094d0",
+      "TargetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+    },
+    {
+      "AddressArguments": ["0xdfC83880203522d19D32dddC0B982ab5bfcF6411"],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Deposit WETH for Re7WETH",
+      "FunctionSelector": "0x6e553f65",
+      "FunctionSignature": "deposit(uint256,address)",
+      "LeafDigest": "0xf6134991e432f17937cb1397cac5b0bd3c66b204942696e31d7542e2689899e0",
+      "PackedArgumentAddresses": "0xdfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x78Fc2c2eD1A4cDb5402365934aE5648aDAd094d0"
+    },
+    {
+      "AddressArguments": [
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Withdraw WETH from Re7WETH",
+      "FunctionSelector": "0xb460af94",
+      "FunctionSignature": "withdraw(uint256,address,address)",
+      "LeafDigest": "0x50b3413e99f74f1a08f3e01a01a74538d17753328c1828e5ca294586029ee28d",
+      "PackedArgumentAddresses": "0xdfc83880203522d19d32dddc0b982ab5bfcf6411dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x78Fc2c2eD1A4cDb5402365934aE5648aDAd094d0"
+    },
+    {
+      "AddressArguments": ["0xdfC83880203522d19D32dddC0B982ab5bfcF6411"],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Mint Re7WETH using WETH",
+      "FunctionSelector": "0x94bf804d",
+      "FunctionSignature": "mint(uint256,address)",
+      "LeafDigest": "0x84aba7180144ffe87880f5fb1e6379add2c7eeb70c0b98e94cd38e0a854ca020",
+      "PackedArgumentAddresses": "0xdfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x78Fc2c2eD1A4cDb5402365934aE5648aDAd094d0"
+    },
+    {
+      "AddressArguments": [
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Redeem Re7WETH for WETH",
+      "FunctionSelector": "0xba087652",
+      "FunctionSignature": "redeem(uint256,address,address)",
+      "LeafDigest": "0x5f66e10932e74bd14d997f34ff7817de890af8ff651365719d8f5ab445b2c66b",
+      "PackedArgumentAddresses": "0xdfc83880203522d19d32dddc0b982ab5bfcf6411dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x78Fc2c2eD1A4cDb5402365934aE5648aDAd094d0"
+    },
+    {
+      "AddressArguments": ["0x1111111254EEB25477B68fb85Ed929f73A960582"],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Approve 1Inch router to spend WETH",
+      "FunctionSelector": "0x095ea7b3",
+      "FunctionSignature": "approve(address,uint256)",
+      "LeafDigest": "0xb27ea9f142f6dbd8a631119730ae121c78a74a3ea1ea792e16453a660be40c26",
+      "PackedArgumentAddresses": "0x1111111254eeb25477b68fb85ed929f73a960582",
+      "TargetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+    },
+    {
+      "AddressArguments": [
+        "0x5141B82f5fFDa4c6fE1E372978F1C5427640a190",
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "0x5141B82f5fFDa4c6fE1E372978F1C5427640a190",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Swap WETH for weETH using 1inch router",
+      "FunctionSelector": "0x12aa3caf",
+      "FunctionSignature": "swap(address,(address,address,address,address,uint256,uint256,uint256),bytes,bytes)",
+      "LeafDigest": "0x8b2d60d7c9f4cffdc43eb65d50ddce1e082d5e05fdc326c2f392288fa49aad5a",
+      "PackedArgumentAddresses": "0x5141b82f5ffda4c6fe1e372978f1c5427640a190c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2cd5fe23c85820f7b72d0926fc9b05b43e359b7ee5141b82f5ffda4c6fe1e372978f1c5427640a190dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x1111111254EEB25477B68fb85Ed929f73A960582"
+    },
+    {
+      "AddressArguments": [
+        "0x5141B82f5fFDa4c6fE1E372978F1C5427640a190",
+        "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0x5141B82f5fFDa4c6fE1E372978F1C5427640a190",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Swap weETH for WETH using 1inch router",
+      "FunctionSelector": "0x12aa3caf",
+      "FunctionSignature": "swap(address,(address,address,address,address,uint256,uint256,uint256),bytes,bytes)",
+      "LeafDigest": "0x06165a24b2746fb288b840c01873f3e8ebad941bed174cb14b1a946d9658c69d",
+      "PackedArgumentAddresses": "0x5141b82f5ffda4c6fe1e372978f1c5427640a190cd5fe23c85820f7b72d0926fc9b05b43e359b7eec02aaa39b223fe8d0a0e5c4f27ead9083c756cc25141b82f5ffda4c6fe1e372978f1c5427640a190dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x1111111254EEB25477B68fb85Ed929f73A960582"
+    },
+    {
+      "AddressArguments": [
+        "0x5141B82f5fFDa4c6fE1E372978F1C5427640a190",
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+        "0x5141B82f5fFDa4c6fE1E372978F1C5427640a190",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Swap WETH for wstETH using 1inch router",
+      "FunctionSelector": "0x12aa3caf",
+      "FunctionSignature": "swap(address,(address,address,address,address,uint256,uint256,uint256),bytes,bytes)",
+      "LeafDigest": "0x01b1309babe6ad2a4d4bbcf146ce2f381906ca9040efee392ac508f0576e0588",
+      "PackedArgumentAddresses": "0x5141b82f5ffda4c6fe1e372978f1c5427640a190c02aaa39b223fe8d0a0e5c4f27ead9083c756cc27f39c581f595b53c5cb19bd0b3f8da6c935e2ca05141b82f5ffda4c6fe1e372978f1c5427640a190dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x1111111254EEB25477B68fb85Ed929f73A960582"
+    },
+    {
+      "AddressArguments": [
+        "0x5141B82f5fFDa4c6fE1E372978F1C5427640a190",
+        "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+        "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "0x5141B82f5fFDa4c6fE1E372978F1C5427640a190",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Swap wstETH for WETH using 1inch router",
+      "FunctionSelector": "0x12aa3caf",
+      "FunctionSignature": "swap(address,(address,address,address,address,uint256,uint256,uint256),bytes,bytes)",
+      "LeafDigest": "0x08f5004c3f478749587e29897a903518a52fb6aeec151d68910d6f69e97525c2",
+      "PackedArgumentAddresses": "0x5141b82f5ffda4c6fe1e372978f1c5427640a1907f39c581f595b53c5cb19bd0b3f8da6c935e2ca0c02aaa39b223fe8d0a0e5c4f27ead9083c756cc25141b82f5ffda4c6fe1e372978f1c5427640a190dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x1111111254EEB25477B68fb85Ed929f73A960582"
+    },
+    {
+      "AddressArguments": ["0x1111111254EEB25477B68fb85Ed929f73A960582"],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Approve 1Inch router to spend weETH",
+      "FunctionSelector": "0x095ea7b3",
+      "FunctionSignature": "approve(address,uint256)",
+      "LeafDigest": "0xc183a618c00ac2989b581760a72b4d925c5b44a3996337eba10604b783e0640c",
+      "PackedArgumentAddresses": "0x1111111254eeb25477b68fb85ed929f73a960582",
+      "TargetAddress": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee"
+    },
+    {
+      "AddressArguments": [
+        "0x5141B82f5fFDa4c6fE1E372978F1C5427640a190",
+        "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+        "0x5141B82f5fFDa4c6fE1E372978F1C5427640a190",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Swap weETH for wstETH using 1inch router",
+      "FunctionSelector": "0x12aa3caf",
+      "FunctionSignature": "swap(address,(address,address,address,address,uint256,uint256,uint256),bytes,bytes)",
+      "LeafDigest": "0x6a9dcacdace5ce5df710fdaea9f0bb3d6c52a9f5d010d3423a303eb412d632af",
+      "PackedArgumentAddresses": "0x5141b82f5ffda4c6fe1e372978f1c5427640a190cd5fe23c85820f7b72d0926fc9b05b43e359b7ee7f39c581f595b53c5cb19bd0b3f8da6c935e2ca05141b82f5ffda4c6fe1e372978f1c5427640a190dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x1111111254EEB25477B68fb85Ed929f73A960582"
+    },
+    {
+      "AddressArguments": [
+        "0x5141B82f5fFDa4c6fE1E372978F1C5427640a190",
+        "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+        "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+        "0x5141B82f5fFDa4c6fE1E372978F1C5427640a190",
+        "0xdfC83880203522d19D32dddC0B982ab5bfcF6411"
+      ],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Swap wstETH for weETH using 1inch router",
+      "FunctionSelector": "0x12aa3caf",
+      "FunctionSignature": "swap(address,(address,address,address,address,uint256,uint256,uint256),bytes,bytes)",
+      "LeafDigest": "0xe0503d2b157cecb725b3f71a3544d4286f5cc4ec66cd83341398613c425f5ee0",
+      "PackedArgumentAddresses": "0x5141b82f5ffda4c6fe1e372978f1c5427640a1907f39c581f595b53c5cb19bd0b3f8da6c935e2ca0cd5fe23c85820f7b72d0926fc9b05b43e359b7ee5141b82f5ffda4c6fe1e372978f1c5427640a190dfc83880203522d19d32dddc0b982ab5bfcf6411",
+      "TargetAddress": "0x1111111254EEB25477B68fb85Ed929f73A960582"
+    },
+    {
+      "AddressArguments": ["0x1111111254EEB25477B68fb85Ed929f73A960582"],
+      "CanSendValue": false,
+      "DecoderAndSanitizerAddress": "0x0acCa7989219eB630a5dAf8929f6081D345d38Fa",
+      "Description": "Approve 1Inch router to spend wstETH",
+      "FunctionSelector": "0x095ea7b3",
+      "FunctionSignature": "approve(address,uint256)",
+      "LeafDigest": "0xa9de061f871457c96ca16697c2a6c944bc5daca1670987de157b26961eebe9c6",
+      "PackedArgumentAddresses": "0x1111111254eeb25477b68fb85ed929f73a960582",
+      "TargetAddress": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0"
+    }
+  ],
+  "MerkleTree": {
+    "0": ["0x65adf95f4f2c1f2916681c47338fbb005235db12859afb4b73d2ebb08b2fc9d8"],
+    "1": [
+      "0x2ac37ab7ded53d20b2deb3afb212f05a488b16be9ffae7d6e0ca095866e7c7a0",
+      "0xf2da2d240c60a23439120b362e2fee1449e2f9ff4b79082c3c6ee744ea525fa8"
+    ],
+    "2": [
+      "0x569390cac980fe151a3557d0f8feb72928f595407a10a9fec517287e86034707",
+      "0x9f9c42a56c9a00f87ae4c5af8db24363e7ca34ca3de9d9b50621cc57a11988d4",
+      "0x1e52c607497f2bcd3918a677ecf490928f3272431d5489e9d168868e1ac68c05",
+      "0xf855aa4ed8698ac6785a08f9a7874a1cd4fda99529f95ffccdf95a1a4988ca69"
+    ],
+    "3": [
+      "0x4f7edea701644c712654d4c66c916b9fce6f2f1e0088cd10d0c5f2fa4ab90809",
+      "0xe5a13669d28898b7c974c1f6b9f930b50b06c2924c5922f54893448b1ef96eb7",
+      "0x2ea362ca383431c46fc163e8c6219c008080b82ebf8f129f0dcda8988b41f66e",
+      "0xd0eee70f3f8cab845da355b1c36a044696dc275ae195f9a10e0cfca18d181bb2",
+      "0x179f27b7b43c4736005b0817ca70d8b103f75a06b619b78c70a74a90fab7e97b",
+      "0xcfb57c7771bb7b3e92c3e096062ffc487c55e2bbe85d61b0266336fff1d4e634",
+      "0x48fad2a7a1dd22b978715e46265f38d6a598c08ee8224ec2639799f8a4a34e01",
+      "0xe656995f2dedbf1b22940c96851652a7725f77af0124f2309fe8e4f216534c86"
+    ],
+    "4": [
+      "0x95491efac6321a7c1f7942afdbb3063a6e28cf1e2eb4f8462f9c410aee6be684",
+      "0x47c59e11dc1e46d32d6a70add08647889127be52ec047c446773b4c64b780027",
+      "0x14609720ddcef8003647abb499d3599a56d6f0a007998955f40744175137fcf8",
+      "0x758439567e411db0c2c27649955b94aa574b43dd1d325229b6fc147a575bd8fd",
+      "0xf7dd3ccdbcff8950e94c4dab4fc343e76cba8bcd1323fa2251a63f34deb4b883",
+      "0xaf52391ff1cb0fe58893fe6353e87dddf8db228005a89ea8b352c3a50c86eb37",
+      "0xa83e6873ebe1b1c002e74ecdda95a5c70edc35d20b244d6d4b2dc82b6b9869a4",
+      "0x21abf882396caf66e8a23b6c3e8cfdd5db8286d84251f5b27d0513f05165692a",
+      "0xf6955b9c689c9705af32ddc3121e8b3828b663a88ca6b8ec3108eaf5be903271",
+      "0xbcbab545392cf0112439288d499ddf63d17e4f6314f468950491f775ddc7b113",
+      "0x48bd17b69253709b2e2bbd4821b6631fe5446e33b6acb71db5de1b7ddbf5b64d",
+      "0x7c7d7852454e1294581d4e3418447752ae842e5071f3b48da7f5372bf7516a03",
+      "0x7166471dbdbf6bdbb8c4c17fc6e981938b5ab851ddd84cd412da61eda006447c",
+      "0x65d8a124e25f47eb096ccd2d455369a6e31899a22125c9ce8012604d77aec8e4",
+      "0xfa8b237be832acbc60c8ae4386f75a8d6617ba0085572271b7e2e18069aa2b13",
+      "0xdeb1f1301b54ae9253aaede2a7dd0ea0d3ec31571cb4ac126602742ce5ed7361"
+    ],
+    "5": [
+      "0x83179482919dccde236c962e28c0e8da3e7453a8ae09d4f5548b3235910cb96d",
+      "0xf9d21a760f3e9da3c9d88456aca7c54f090f63bfd71bc3d61fd6e38e15d4c13f",
+      "0xf3c0078b91642b3312c19b44ef2558d3e50ef42967fb14bab1263c74ef6e25a5",
+      "0xf594a53f8e8f4c444d397c8cca9fccec112305faf191ba16d9e527f4abb1f4a4",
+      "0xf6a1c74411cf704244d0cfec545df0d169cc873d836d07cc0aed1f97162d03f1",
+      "0x6421b7dc2eed7e2bc287789b830f27b0c1a8434a25a2483ed8cea2347ab1db0d",
+      "0x65b21482bb0594c7b9279175979a1a90f131d4ac6ef49a80d381362184167f10",
+      "0x5de13297023e1f9dcdbaf6bed579ddf557608811de2be39a854ce63465fe383c",
+      "0xaa7e3f53905020bb9bb8c90fbe0097790214dbd813087ef98dba5a83881e9c66",
+      "0x2055c952988765c0a8d4f377fd28ab36ccd47494aa40c95a17b7bc633d48d5de",
+      "0xf6e9d4b1a2bb9293108654fc212a2cecb92e0a484cfd06deb14339af9057bacb",
+      "0xb96ccc8d2e4092ef747dd605bc68d9a40f2efc0e88581b96742ef0cb9e7c7424",
+      "0xcc24a3b1dec96bd785f1e7bef469ca34bea9b0a7600afce8692b08f92e75889c",
+      "0x8a41444dc9462f87a4825502b5a7a2b6592415089d6f49a8c5ef7c348d59e858",
+      "0x86353a1f02c0844d6ae80c873807f02023db20b4dc3aac4a2dab08e435fb42e9",
+      "0x4a0b613ff25268b949ff6a0e88aa4b1dbcab74aee8d32a3bb77b63dfeaa5f38e",
+      "0x320e308cb3753916d9bdca3c6638956cf94245ee4dcf52fa22bdc1e66705137b",
+      "0x2a2de461dc23f5d2737d2edc8faaab41edeb1c57b887801d095d2fde057b2f6f",
+      "0x6bd535dcfed7588858db378802db52458235c9f526934891ef8c00587cc151ef",
+      "0xc02bf393fe48b6dfad3a8184c7ec72b1fa907d56886c1ecc5b41796e7bf62120",
+      "0x9e3c86e7838baee4c3ceaebe6518253c4028088d02c73d2d2a9126b73d969f9e",
+      "0x24e9e709213d9e9274415e4c41c066f46795bded3dc3bb7bd2f2e46422509ce5",
+      "0x07514aa982128baab3a78c7beb67243c54661ce7c2ecd80bff2e65ca34e3c0b6",
+      "0xec5b0bb6dfb008a06a8f349baa0dfe3cfe4117f1ee77cce00229116cd9b06318",
+      "0x68ad7c11752d3d1b03f67257a89a74e4d0b44c236a6a06f6ace173ab6363ba99",
+      "0xc0654d67218f64840e77e860685aabde99963317945f7b33fdf3a877ba544045",
+      "0x1896ae316c0e85577a5878ece74f14157b77e929d9678cbcb4a68c1658d03cf3",
+      "0xb99fd56b57e87f2da719769db7a84f36efdfdb2c4e41d32f9bc1fa93dd047d63",
+      "0x2507597aa67c3b064917a7a03b6493709735ccfb74c53a736c2aa4c5f60645b2",
+      "0x857600f112a444dbdd252eb93d756c6520b3cbc2eb3253f0bac0708b073090c3",
+      "0x220b91656ed2461bc4a14a9b69500b52a893e2d62dc5b6da744a49a1da3f95fa",
+      "0x4ae400b1a82c5eb91d60e298045063a850df3d23c1aa4d765906ab969011d281"
+    ],
+    "6": [
+      "0xbde571f643416dbf76206cba0d81ea48e7e513bc0daad5dedb6fdbd508f680ca",
+      "0x83899fa4770db02cda88fc3fb86c0f059a151fba3a5953ca09116194ac6753c4",
+      "0x89ff3159d1cb3c5b76b07cdbcb8251bb8b7099c7f70552dd3c21b1c565de6dee",
+      "0x2961b8cc35f68390400b2f3d2761af29b6ecfd2d82314859823cc5ee43087dda",
+      "0x11f61532eaa481d8f7111c152105d081685d1a11b0ddffd3ede9e53b6c5c7bc0",
+      "0x2e4c25ec0b98b2d56e723136532690156fcc66418d1f193e4a09a825f4a22fdf",
+      "0xecf2b8a36326916977b82453c066fc30fb1917dc8168a33e51cb00e389566a10",
+      "0x5d3d3f80e6857c929762d69141bcc3bb4a9576117fa8e01ae0426118bc271857",
+      "0x7eaa456e15349b8e3da9f5ea9becd14c73fa750d96bf6d467745a86dd900407c",
+      "0xb9e055e87b21255f8f7e944f190ad38df21a6ada18b0d8cd442bc8f450fc7550",
+      "0x2e73218db867bb0a57e34bdead976544d5023515f07fc7175a0a46f8c23eb727",
+      "0x04cfb44e87ce43e3ab4922d59cacbca4e1b82e33b4879e50f52ec084929ec99f",
+      "0x6a8c9ac550651a601459950012fe5de678ca4d6f65c8485646bccd0fd4f3345b",
+      "0x05fb6ec7ac1e56ac80e467a398f9c182d7e05c962c01794b7877943bdde1e7f3",
+      "0x66400b246d843ea44c00faec6774f60ef90b9793d13dc232be3c461fc80a055e",
+      "0x3f9fd7e2d791ebf3d65f34120680d3c1fc30fb843cccf2fb9b3da10aa50034f5",
+      "0x037c6c1a52b277ef9b829553b896664085e776391ce59373bf9e04d939ab3ee9",
+      "0x6d18dd617a15ed4def154ae90f7f8f399ac739094cd8cf3e7c140984258b400d",
+      "0x2548d8e77ca3b7703d289dee6af8579054cbe45389a674e6704c3a93a15cdf80",
+      "0x0f812ce09978c53178dc5e29f3a5a193e80d9789b074b1f85553b83c449b7d00",
+      "0x734002f3a85daf25b980f39658bac3c7e57abd5b94d20ea2ae221042d35b8e1f",
+      "0x646ba6891fe7652d03b54eab56fa36b7a5de2077cc799977f4f5afaff7dc3287",
+      "0x0238958eb3aedfd6ec3ca912436e16140983c077b6dc2b15ccfd31977c9c9e34",
+      "0xbcba4310cf99d90ee1c2d521ae98bd4385939009e6b395735a190ce6a2bfe2a4",
+      "0x1043ed6f95ae768bd70cb0f7b0a3631714bfae0ea02c6c7ef1a25dd0530af0d2",
+      "0x53c0d10fb630a60408c115087d85ebd8864a7d9be8a02bd560ec55ca2f5edc92",
+      "0x9deb6d05c6031cfebc76504306ef9d460f6cd30f14ee568b0458de28bd83f08a",
+      "0x19d3cd87ccae4634912b515b6447f19650553414ac0d8cded9e58068ef0011a3",
+      "0xf4d1e6c7fe5809257d3a71d72e9a2c2c60e9bd28c463b8564b3cb819509cd5e4",
+      "0x2df6fedeec9fe19d53fbb4b91fa3a8c96ed6a683dc780e59c504e6fc6f92eeac",
+      "0x89405ad58bb4534630488c8e973aeed129b8a3b01c26be8bd35d74fccc9ca021",
+      "0x4cd131372d8312ce0533c605378a047b0cc9191277f750ff25c7b2bea6cacbeb",
+      "0xcf5012f2f547786015c0c1446038b60cdd21792c9a12cbdd4892a94c5ee80e6f",
+      "0x6fa5035dd5e74fed339f4301c93d509c98c6fd50d7c0bd4e352371c75943324c",
+      "0x8b8caa3c74e8bd220d02ed7690b263fc2d9c10703bd8e2e66ef7ed5f12dc3b5c",
+      "0xc90a9c988cc6120e71b9f5608cfb3fd26daeea4735e90c609934dcae444e4ec7",
+      "0xf0169ab1e81a5188bc6d60b6117711dd5bbc5c1de28996d034ecee59238ae447",
+      "0xed51ce028806bf36588fd9dc0eab0c3d8a1fa21aea09998bca101194518e166d",
+      "0x0f98cd4d879258ef30ec1b416b74aae2d2385de39869318f2f3c54c9489e35dc",
+      "0x38d25864f85159b330f57aa69f1ecdeff7e4c1fec427c30dc53b9bafcfa04ae5",
+      "0x18a60fc76e78d69cbad88181d6e3e77144fafb4b1b6d5164cbac34cf731ef56e",
+      "0x30409b8afb19d8098f4b8a3047966504aa316b137ee008bd5c6aee8231da38bd",
+      "0xa4d10464570107adfa8d9dc50d6a9b43ef8474847f68e6e4bc0677f4f7fbf092",
+      "0xc911ed5cd84f414f1af4bdf39ee3693ab1f2b369def40f377ac0de11334438b1",
+      "0x3c6506a4d0fc90a029f31ed6c48268e13703e45b02e1ff0f2492acf84d35e826",
+      "0x2e2436f95ed85c3af10bde8e6f5c49d5ba9ae9f6d6701e75481b420e40ab600b",
+      "0x0a3d005c4d7d135a9b6c354ab5d7a6b4381abe0c19b2279f7c62363e9281d39c",
+      "0xb54387fb328fe95128022336a2408c84211d56d7f1135011516bbb4a99660025",
+      "0xe0fefcb777b593efa7e6b30d46a078d96ee8b13741e119aa9bf0dad90e920028",
+      "0xeb4127d96afc070e9d2f4f70853ff8d98ae9aa7779c5c7d7f4a522c8a0c97517",
+      "0x34022e226aa150ca12d85718140c0338685fb25b9a4c39a38b8f977eb137023f",
+      "0xf6134991e432f17937cb1397cac5b0bd3c66b204942696e31d7542e2689899e0",
+      "0x50b3413e99f74f1a08f3e01a01a74538d17753328c1828e5ca294586029ee28d",
+      "0x84aba7180144ffe87880f5fb1e6379add2c7eeb70c0b98e94cd38e0a854ca020",
+      "0x5f66e10932e74bd14d997f34ff7817de890af8ff651365719d8f5ab445b2c66b",
+      "0xb27ea9f142f6dbd8a631119730ae121c78a74a3ea1ea792e16453a660be40c26",
+      "0x8b2d60d7c9f4cffdc43eb65d50ddce1e082d5e05fdc326c2f392288fa49aad5a",
+      "0x06165a24b2746fb288b840c01873f3e8ebad941bed174cb14b1a946d9658c69d",
+      "0x01b1309babe6ad2a4d4bbcf146ce2f381906ca9040efee392ac508f0576e0588",
+      "0x08f5004c3f478749587e29897a903518a52fb6aeec151d68910d6f69e97525c2",
+      "0xc183a618c00ac2989b581760a72b4d925c5b44a3996337eba10604b783e0640c",
+      "0x6a9dcacdace5ce5df710fdaea9f0bb3d6c52a9f5d010d3423a303eb412d632af",
+      "0xe0503d2b157cecb725b3f71a3544d4286f5cc4ec66cd83341398613c425f5ee0",
+      "0xa9de061f871457c96ca16697c2a6c944bc5daca1670987de157b26961eebe9c6"
+    ]
+  }
+}
